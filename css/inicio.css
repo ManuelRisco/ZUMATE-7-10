@@ -131,7 +131,12 @@ footer{
     position: relative;
     margin-top: auto;
 }
-
+@media (max-width: 991px) {
+    .btn-donar {
+        margin: 20px auto; /* Centrar el botón y añadir margen superior e inferior */
+        display: block; /* Asegúrate de que se comporta como bloque */
+    }
+}
 
 
 

@@ -93,6 +93,8 @@ nav {
     padding: 150px 80px; 
     background-color: #f8f8f8; 
     margin-bottom: 50px; 
+    top: 100px;
+    position: relative;
 }
 
 .intro-content {
@@ -153,7 +155,7 @@ nav {
 .carousel-inner {
     display: flex;
     transition: transform 0.5s ease;
-    width: calc(400px * 6.2); /* Ajustar según el número total de tarjetas */
+    width: calc(400px * 6.2); /* Ajusta según el número total de tarjetas */
 }
 
 .program-card {
@@ -387,7 +389,21 @@ footer .footer-services a:hover {
 .menu-item i {
     margin-left: 5px;
 }
+/* --- Footer --- */
+footer{
+    width: 100%;
+    position: relative;
+    margin-top: auto;
+    position: relative;
+    top: 200px;
+  }
 
+
+
+
+footer .footer-content .social-links a:hover {
+    color: #e8491d;
+}
 /* Media Queries para Responsividad */
 @media (max-width: 768px) {
     .intro-section {

@@ -125,7 +125,7 @@ footer {
     background: #212429;
     color: #ffffff;
     text-align: center;
-    padding: 10px 20px;
+    padding: 40px 20px;
     box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -144,10 +144,7 @@ footer .footer-services a {
     transition: color 0.3s ease;
 }
 
-footer .footer-services a:hover {
-    color: #e8491d;
-    text-decoration: underline;
-}
+
 
 /* Dropdown en el menú */
 .dropdown {

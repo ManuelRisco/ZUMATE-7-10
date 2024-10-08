@@ -63,3 +63,9 @@ footer{
 .btn-warning.active {
     background-color: rgb(255, 226, 96) !important;
 }
+@media (max-width: 991px) {
+    .btn-donar {
+        margin: 20px auto; /* Centrar el botón y añadir margen superior e inferior */
+        display: block; /* Asegúrate de que se comporta como bloque */
+    }
+}
